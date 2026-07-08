@@ -23,6 +23,7 @@ and explore every result through an interactive browser dashboard — all in KES
 ---
 
 ## What this system does
+<img width="1898" height="898" alt="image" src="https://github.com/user-attachments/assets/6f13429c-ff82-416e-8776-6e92b87332e8" />
 
 This system takes your Safaricom M-PESA PDF statements and turns them into a structured financial picture. It extracts every transaction exactly as printed, removes duplicates across overlapping statement periods, computes financial metrics at every time granularity, and presents everything through a self-contained dashboard that runs in any browser with no server required.
 
@@ -31,6 +32,7 @@ The pipeline has two parts that can be used independently or together:
 - **Part 1** is a Python script that reads PDF files, extracts all transactions, and writes a clean CSV.
 - **Part 2** is a Python analytics engine that receives the clean data and generates an Excel workbook plus an HTML dashboard.
 - **The standalone dashboard** accepts the CSV or the raw PDFs directly in the browser, extracting and analysing without any Python required.
+<img width="1881" height="881" alt="image" src="https://github.com/user-attachments/assets/4c223062-5755-4ccf-bf12-3f899a125042" />
 
 ---
 
